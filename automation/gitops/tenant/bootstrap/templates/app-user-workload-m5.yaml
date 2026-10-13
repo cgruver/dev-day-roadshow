@@ -22,7 +22,7 @@ spec:
         - /spec/started
   project: default
   source:
-    path: automation/gitops/tenant/module5
+    path: tenant/module5
     repoURL: {{ .Values.gitops.repoURL }}
     targetRevision: {{ .Values.gitops.targetRevision }}
     helm:
@@ -31,7 +31,6 @@ spec:
           username: {{ .Values.tenant.username }}
           # Kept separate. OpenShift identity may not be valid for application accounts
           openshiftUser: {{ .Values.tenant.username }}
-          password: {{ .Values.tenant.password }}
         gitlab:
           host: {{ .Values.gitlab.host }}
         cluster:
