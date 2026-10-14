@@ -25,6 +25,24 @@ Build AI data flows using Red Hat's integration technologies -- EDI ingest with 
 **Duration**: Varies by lab
 ****
 
+[.tile]
+****
+xref:04-module-04-ai-powered-troubleshooting.adoc[Module 4: AI-Powered Troubleshooting]
+
+Learn how to troubleshoot applications on OpenShift using AI-powered tools -- investigate timeout issues, diagnose critical alerts, and build custom monitoring dashboards with OpenShift Lightspeed.
+
+**Duration**: ~60 minutes
+****
+
+[.tile]
+****
+xref:module-05/module-05-01-goals.adoc[Module 5: AI-Powered Migration using MTA]
+
+Modernize legacy Java EE applications to cloud-native Quarkus using the Migration Toolkit for Applications (MTA) and AI-assisted refactoring -- analyze code, apply custom rules, and deploy to OpenShift.
+
+**Duration**: ~90 minutes
+****
+
 == Getting Started
 
 Select a module above to begin. Each module includes its own introduction, environment details, and learning objectives.
