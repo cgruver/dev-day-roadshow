@@ -222,7 +222,6 @@ data:
               - 400
           loop:
             - parasol-insurance
-            - parasol-insurance-eap
             - parasol-insurance-manifests
           register: r_create_projects
           retries: 5
@@ -240,7 +239,6 @@ data:
             GIT_SSL_NO_VERIFY: "true"
           loop:
             - parasol-insurance
-            - parasol-insurance-eap
             - parasol-insurance-manifests
           register: r_import_repos
           retries: 5
@@ -262,7 +260,6 @@ data:
             status_code: 200
           loop:
             - parasol-insurance
-            - parasol-insurance-eap
             - parasol-insurance-manifests
 
         - name: Clone tenant parasol-insurance to template catalog-info

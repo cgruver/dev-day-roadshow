@@ -29,6 +29,3 @@ litellm:
 
 module3:
   enabled: true
-
-module5:
-  enabled: true
